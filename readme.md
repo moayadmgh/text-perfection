@@ -26,7 +26,7 @@ composer require moayadmgh/text-perfection
 
 ## Usage
 
-###- Full Usage
+### - Full Usage
 
 ```php
 use Moayadmgh\TextPerfection\TextPerfection;
@@ -59,7 +59,7 @@ return [
 ```
 It is also possible to access each functionality separately
 
-###- Content Analysis
+### - Content Analysis
 
 ```php
 use Moayadmgh\TextPerfection\ContentAnalyzer;
@@ -77,7 +77,7 @@ echo "Sentences Count: " . $result->getSentencesCount() . PHP_EOL;
 echo "Keyword Density: " . $result->getKeywordDensity() . PHP_EOL;
 ```
 
-###- Content Rewriting
+### - Content Rewriting
 
 ```php
 use Moayadmgh\TextPerfection\ContentRewriter;
@@ -93,7 +93,7 @@ echo $rewrittenContent . PHP_EOL;
 
 This new content will be rendered at first in the same format from the OpenAI API response
 
-###- Content Rewriting
+### - Content Rewriting
 
 ```php
 use Moayadmgh\TextPerfection\TextFormatter;
@@ -106,7 +106,7 @@ $formattedContent = $formatter->getFormattedText();
 
 echo $formattedContent . PHP_EOL;
 ```
-##Configuration
+## Configuration
 The TextPerfection plugin can be configured by creating a `.env` file in the root of your project. Here's an example configuration:
 
 ```dotenv
@@ -116,8 +116,8 @@ OPENAI_ORGANIZATION=__OPEN_AI_ORGANIZATION_KEY__
 
 Make sure to set the corresponding API keys in your environment variables or use the .env file.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-##License
+## License
 This plugin is open-source and released under the MIT License.

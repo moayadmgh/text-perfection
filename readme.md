@@ -93,7 +93,7 @@ echo $rewrittenContent . PHP_EOL;
 
 This new content will be rendered at first in the same format from the OpenAI API response
 
-### - Content Rewriting
+### - Content Reformatting
 
 ```php
 use Moayadmgh\TextPerfection\TextFormatter;

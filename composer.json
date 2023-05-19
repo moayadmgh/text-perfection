@@ -1,6 +1,7 @@
 {
   "name": "moayadmgh/text-perfection",
   "description": "TextPerfection is a powerful content rewriting and enhancement plugin that helps you achieve text perfection. With advanced algorithms and linguistic analysis, TextPerfection offers intelligent suggestions and optimizations to transform your written content into a refined and professional masterpiece. Elevate the quality of your text, enhance readability, and ensure impeccable grammar and structure with TextPerfection. Whether you're a writer, blogger, or content creator, TextPerfection empowers you to produce compelling and flawless text that captivates your audience and leaves a lasting impression. Experience the art of text perfection with this essential tool for every wordsmith and communicator",
+  "keywords": ["php","OpenAI"],
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -22,12 +23,6 @@
     "openai-php/client": "^0.4.2",
     "guzzlehttp/guzzle": "^7.6",
     "vlucas/phpdotenv": "^5.5"
-  },
-  "config": {
-    "allow-plugins": {
-      "php-http/discovery": true,
-      "pestphp/pest-plugin": true
-    }
   },
   "require-dev": {
     "phpunit/phpunit": "^10.1"

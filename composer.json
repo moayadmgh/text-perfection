@@ -14,7 +14,7 @@
       "email": "moayad.mgh@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
     "php": ">=8.1",
     "ext-mbstring": "*",
